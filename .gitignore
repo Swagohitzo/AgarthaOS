@@ -1,0 +1,4 @@
+echo "boot.bin" >> .gitignore
+echo "boot.img" >> .gitignore
+echo ".o" >> .gitignore
+echo .iso" >> .gitignore
