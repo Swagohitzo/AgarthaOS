@@ -18,7 +18,7 @@ print_string:
 .done:
     ret
 
-msg db "Hello, OSDev!", 0  ; Our message, zero-terminated
+msg db "Welcome to AgarthaOS!", 0  ; Our message, zero-terminated
 
 times 510-($-$$) db 0       ; Pad the rest of the 512-byte sector with zeros
 dw 0xAA55                   ; Boot signature (must be at offset 510–511)
